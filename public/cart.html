@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cart</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <div class="wrap cf">
+    <h1 class="projTitle">Shopping Cart</h1>
+    <div class="heading cf">
+      <h1>My Cart</h1>
+      <a href="index.html" class="continue">Continue Shopping</a>
+    </div>
+    <div class="cart">
+      <ul class="cartWrap">
+        <!-- Cart items will be dynamically added here -->
+      </ul>
+    </div>
+
+    <div class="promoCode">
+      <label for="promo">Have A Promo Code?</label>
+      <input type="text" name="promo" placeholder="Enter Code" />
+      <a href="#" class="btn"></a>
+    </div>
+
+    <div class="subtotal cf">
+      <ul>
+        <li class="totalRow"><span class="label">Subtotal</span><span class="value">$0.00</span></li>
+        <li class="totalRow"><span class="label">Shipping</span><span class="value">$0.00</span></li>
+        <li class="totalRow"><span class="label">Tax</span><span class="value">$0.00</span></li>
+        <li class="totalRow final"><span class="label">Total</span><span class="value">$0.00</span></li>
+        <li class="totalRow"><a href="#" class="btn continue">Checkout</a></li>
+      </ul>
+    </div>
+  </div>
+  <script src="./buy_script.js"></script>
+  <script src="./cart.js"></script>
+</body>
+</html>

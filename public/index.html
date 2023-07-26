@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buyfy</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./buy.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fa fa-cart-plus"></i>buyfy.</a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#categories">categories</a>
+            <a href="#about">about</a>
+            <a href="#menu">products</a>
+            <a href="#review">review</a>
+           
+        </nav> 
+
+        <div class="icons">
+            <i class="fa fa-bars" id="menu-bars"></i>
+            <i class="fa fa-search" id="search-icon"></i>
+            <a href="#" class="fa fa-heart"></a>
+            <a href="./cart.html" class="fa fa-shopping-cart" id="cart"></a>
+            <a href="./sel-form.html" class="fa fa-openid" id="cart"></a>
+        </div>
+    </header>
+    <form action=""id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fa fa-search"></label>
+        <i class="fa fa-times" id="close"></i>
+    </form>
+    
+    <section class="home" id="home">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Hot categories</span>
+                        <h3>apparel</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus ea, qui sint quod porro ullam, quos veritatis fuga voluptas quas accusantium, ipsa quibusdam impedit unde cumque sapiente ex quaerat consequuntur!</p>
+                        <a href="#" class="btn">buy now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/home1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Hot categories</span>
+                        <h3>grocery</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus ea, qui sint quod porro ullam, quos veritatis fuga voluptas quas accusantium, ipsa quibusdam impedit unde cumque sapiente ex quaerat consequuntur!</p>
+                        <a href="#" class="btn">buy now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/home2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide  slide">
+                    <div class="content">
+                        <span>Hot categories</span>
+                        <h3>electronics</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus ea, qui sint quod porro ullam, quos veritatis fuga voluptas quas accusantium, ipsa quibusdam impedit unde cumque sapiente ex quaerat consequuntur!</p>
+                        <a href="#" class="btn">buy now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/home3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+<section class="about" id="about">
+    <h3 class="sub-heading">o</h3>
+    <h1 class="heading">why choose us</h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="./assets/abt.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>best customer service, one stop store!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eveniet harum vel veniam blanditiis odit, minus quas vitae nobis ea nemo omnis et distinctio magnam eius dolorum, numquam deleniti ullam!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolor velit ex, porro similique pariatur consequuntur accusantium! Tempora quasi omnis adipisci nulla eveniet quo molestias quia rerum aspernatur corporis. Expedita.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fa fa-shipping-fast "></i>
+                    <span>superfast delivery</span>
+                </div>
+                <div class="icons">
+                    <i class="fa fa-dollar-sign"></i>
+                    <span>easy payments</span>
+                </div>
+                <div class="icons">
+                    <i class="fa fa-headset"></i>
+                    <span>24/7 service</span>
+                </div>
+            </div>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+</section>
+<!-- about section ends-->
+
+<!-- menu section starts-->
+<section class="menu" id="menu">
+    <h3 class="sub-heading">Products</h3>
+    <h1 class="heading">deal of the day</h1>
+    <div class="box-container" id="productContainer">
+      <!-- Product cards will be dynamically added here -->
+    </div>
+  </section>
+<!-- menu section ends-->
+
+<!-- review section starts -->
+<section class="review" id="review">
+    <h3 class="sub-heading">customer's review</h3>
+    <h1 class="heading">what they say</h1>
+
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <i class="fa fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/pic-1.png" alt="">
+                    <div class="user-info">
+                        <h3>john</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>One of the best sites I have ever seen. I saw its advertisement in the newspaper a week ago and ordered a new mobile phone about 4 days ago.  I got the best deal surprisingly compared to all other online platforms. Also, the product arrived before the expected date, yesterday.</p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fa fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/pic-2.png" alt="">
+                    <div class="user-info">
+                        <h3>mary</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Buyfy is surely a nice option if you are about to shop online. You will find the best deals available in the market. I am very happy with their customer service and I would surely recommend it to others.</p>
+            
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fa fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/pic-3.png" alt="">
+                    <div class="user-info">
+                        <h3>nathan</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Do visit their 'Deal of the Day' Section. They have pretty fair deals everyday. Also, the bank offers they provide are quite varied across multiple banks compared to the biggies out there, who are bound to a few pre-eminent banks.</p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fa fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/pic-4.png" alt="">
+                    <div class="user-info">
+                        <h3>harry</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>The best thing that I found here was that the product I received was just as shown in the image preview on the site, unlike other sites where there are issues about the colors and overall looks of the product.</p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fa fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/pic-3.png" alt="">
+                    <div class="user-info">
+                        <h3>nathan</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Do visit their 'Deal of the Day' Section. They have pretty fair deals everyday. Also, the bank offers they provide are quite varied across multiple banks compared to the biggies out there, who are bound to a few pre-eminent banks.</p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fa fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/pic-3.png" alt="">
+                    <div class="user-info">
+                        <h3>nathan</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Do visit their 'Deal of the Day' Section. They have pretty fair deals everyday. Also, the bank offers they provide are quite varied across multiple banks compared to the biggies out there, who are bound to a few pre-eminent banks.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- review section ends -->
+
+<!-- footer section starts -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">india</a>
+            <a href="#">japan</a>
+            <a href="#">russia</a>
+            <a href="#">USA</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">categories</a>
+            <a href="#">about</a>
+            <a href="#">products</a>
+            <a href="#">review</a>
+        </div>
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+123-456-7890</a>
+            <a href="#">+111-222-3333</a>
+            <a href="#">buyfy@gmail.com</a>
+            <a href="#">vanshgoel871@gmail.com</a>
+            <a href="#">Gandhinagar,India</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedIn</a>
+        </div>
+    </div>
+    <div class="credit">copyright @ 2022 by <span>webb noob</span></div>
+</section>
+<!-- footer section ends -->
+<!-- loader part -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./buy_script.js"></script>
+    
+</body>
+</html>
