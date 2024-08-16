@@ -3,10 +3,7 @@ pipeline {
 
     // Triggers the pipeline on pull requests
     triggers {
-        githubPullRequest {
-            useGitHubHooks(true)
-            permitAll(true)
-        }
+        githubPullRequest()
     }
 
     stages {
