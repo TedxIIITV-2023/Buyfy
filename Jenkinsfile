@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     // Triggers the pipeline on pull requests
-    triggers {
-        githubPullRequests()
-        githubPush()
-    }
+    // triggers {
+    //     githubPullRequests()
+    //     githubPush()
+    // }
 
     stages {
         stage('Build') {
