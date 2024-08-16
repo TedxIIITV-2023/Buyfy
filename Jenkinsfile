@@ -3,7 +3,8 @@ pipeline {
 
     // Triggers the pipeline on pull requests
     triggers {
-        githubPullRequest()
+        githubPullRequests()
+        githubPush()
     }
 
     stages {
